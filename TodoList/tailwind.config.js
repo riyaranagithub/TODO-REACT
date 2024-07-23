@@ -3,11 +3,14 @@ export default {
   content: ["./index.html",
   "./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
-    extend: {},
+    extend: { fontFamily: { 
+      "Inconsolata": ['Inconsolata'] ,
+      "Playfair Display":["Playfair Display"],
+      "Titan One":["Titan One", "sans-serif"],
+  } },
+ 
   },
-  fontFamily: { 
-    "lato": ['Lato', 'sans-serif'] 
-  } ,
+ 
   plugins: [],
 
 }
